@@ -1,0 +1,47 @@
+@import "variables"
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+    
+*
+    margin: 0
+    border: none
+    padding: 0
+
+body
+    font-family: 'Roboto', sans-serif
+    color: $white
+    width: 300px
+    height: 180px
+    margin: 0
+    padding: 0
+    background: $primary-dark
+    display: flex
+    flex-direction: column
+
+h4
+    margin: 10px
+    padding: 5px 0
+
+main
+    flex-grow: 1
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-content: center
+    background: $primary-light
+
+    & input
+        height: 3rem
+        font-size: 1.2rem
+        padding: 10px
+        background: $primary
+        color: $white
+    & #output
+        height: 3.2rem
+        font-size: 2.2rem
+        line-height: 3.2rem
+        padding: 5px 0
+        margin-bottom: 8px
+
+        &:hover
+            border-bottom: 8px solid $primary
+            margin-bottom: 0

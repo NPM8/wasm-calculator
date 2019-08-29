@@ -1,0 +1,14 @@
+{
+    "name": "WASM calculator",
+    "version": "1.0",
+    "description": "Simple Extension test",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "manifest_version": 2
+}
